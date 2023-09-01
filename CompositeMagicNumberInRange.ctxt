@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CompositeMagicNumberInRange
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=num
+comment2.target=boolean\ isComposite(int)
+comment3.params=num
+comment3.target=boolean\ isMagic(int)
+numComments=4
