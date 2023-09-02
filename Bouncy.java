@@ -9,6 +9,9 @@ class Bouncy
         String st="",str="";
         String s=Integer.toString(n);
         int l=s.length();
+
+        boolean isIncreasing=true;
+        boolean isDecreasing=true;
         for(int i=0;i<l-1;i++)
         {
             char ch=s.charAt(i);
@@ -17,28 +20,20 @@ class Bouncy
             int g=(int)chr;
             if(nn>g)
             {
-                int p=nn;
-                nn=g;
-                g=p;
-            st=st+Integer.toString(g)+Integer.toString(p);                     
-            }}
-            for(int i=0;i<l-1;i++)
-        {
-            char ch=s.charAt(i);
-            char chr=s.charAt(i+1);
-            int nn=(int)ch;
-            int g=(int)chr;
+                isIncreasing=false;                    
+            }
+
             if(nn<g)
             {
-                int p=nn;
-                nn=g;
-                g=p;
-            str=str+Integer.toString(g)+Integer.toString(p);
-        }}
-        if(s.equals(st))
+                isDecreasing=false;
+            }
+        }
+            
+        if(isIncreasing)
         System.out.println("Increasing");
-        else if(s.equals(str))
+        else if(isDecreasing)
         System.out.println("Decreasing");
         else
         System.out.println("Bouncy Number");
-    }}
+    }
+}
