@@ -20,9 +20,10 @@ C:\Users\AYOO\Way to go\doc
 UTF-8
 -charset
 UTF-8
-C:\Users\AYOO\Way to go\FirstProgram.java
+C:\Users\AYOO\Way to go\gg.java
 <---- end of javadoc command ---->
-Loading source file C:\Users\AYOO\Way to go\FirstProgram.java...
-Constructing Javadoc information...
-error: No public or protected classes found to document.
+Loading source file C:\Users\AYOO\Way to go\gg.java...
+C:\Users\AYOO\Way to go\gg.java:11: error: class expected
+        int l=a[][].length;
+                    ^
 1 error

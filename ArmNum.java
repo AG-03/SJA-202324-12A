@@ -8,6 +8,7 @@ int n;
 double sum=0;                                                                             
 System.out.println("Enter a number");
 n=in.nextInt();
+int c=n;
 String s=Integer.toString(n);
 int l=s.length();
 while(n>0)
@@ -17,7 +18,7 @@ while(n>0)
    sum=sum+k;
     n=n/10;
 }
-if(n==sum)
+if(c==sum)
 System.out.println("Armstrong number");
 else
 System.out.println("Not an Armstrong number");

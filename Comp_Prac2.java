@@ -15,14 +15,14 @@ class Comp_Prac2
         else 
         {
             String st[]=new String[n];
-           for(int i=1;i<n;i++)
+           for(int i=0;i<n;i++)
            {
-               System.out.println("Enter the name of the team" +i +":");
+               System.out.println("Enter the name of the team" +((int)i+1) +":");
                st[i]=in.next();
             }        
             for(int i=0;i<n;i++)
             {
-                System.out.println("Team" +i +":" +st[i]);
+                System.out.println("Team" +((int)i+1) +":" +st[i]);
             }
           for(int i=0;i<n;i++)
           {
@@ -30,11 +30,10 @@ class Comp_Prac2
               int k=str.length();
               for(int j=0;j<k;j++)
               {
-                  char ch=st[i].charAt(j);
-                  System.out.println(ch);
-             
-                }
-                  System.out.print("\t");
+                  char ch=st[i].charAt(j);            
+                      System.out.println(ch);
+                    }
+               System.out.print("\t" +"\t");
                 }}}}
         
     

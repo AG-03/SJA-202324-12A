@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CompositeMagicNumberInRange {
+public class CompositeMagicNumberInRange {                  
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the lower bound of the range: ");
