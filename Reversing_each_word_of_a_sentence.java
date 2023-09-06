@@ -1,4 +1,4 @@
-import java.util.*;
+    import java.util.*;
 class Reversing_each_word_of_a_sentence                                               
 {
     public static void main(String args[])
@@ -17,7 +17,7 @@ class Reversing_each_word_of_a_sentence
             for(int i=0;i<n;i++)
             {
                 String sf=word[i]; // word[i] is null here since it is not initialized yet
-                word[i]=str.nextToken();
+                word[i]=str.nextToken();                
                 int c=word[i].length();
                 for(int j=c-1;j>=0;j--) //j will start from c-1
                 {
@@ -27,7 +27,7 @@ class Reversing_each_word_of_a_sentence
                     ss=ss+ch;
                 }
                 ss=ss+" "; //After adding each word, there will be a space
-                //System.out.print("Reversed String=" +ss); This will come out of loop else iit will Repeat several times
+                //System.out.print("Reversed String=" +ss); This will come out of loop else it will Repeat several times
             }
             System.out.print("Reversed String=" +ss);
         }
