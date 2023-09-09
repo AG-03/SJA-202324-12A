@@ -16,8 +16,9 @@ class Reversing_each_word_of_a_sentence
             String word[]=new String[n];
             for(int i=0;i<n;i++)
             {
-                String sf=word[i]; // word[i] is null here since it is not initialized yet
-                word[i]=str.nextToken();                
+               // word[i] is null here since it is not initialized yet
+                word[i]=str.nextToken();  
+                 String sf=word[i]; 
                 int c=word[i].length();
                 for(int j=c-1;j>=0;j--) //j will start from c-1
                 {
