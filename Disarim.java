@@ -15,7 +15,7 @@ class Disarim              // A disarium number is a number in which the sum of 
         for(int i=0;i<l;i++)
         {
             char ch=s.charAt(i);
-            int num=(int)ch;
+            int num=Integer.parseInt(ch +"");
             double k=Math.pow(num,(int)i+1);
         sum=sum+k;
         }
