@@ -29,7 +29,7 @@ class Fascinating
                    int g=Character.getNumericValue(ch);
                 int h=Character.getNumericValue(chr);
                 if(g==h)
-                {
+                {   
                 k++;
                 }
             }}

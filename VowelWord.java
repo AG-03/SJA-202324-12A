@@ -10,13 +10,11 @@ class VowelWord
             if(!(s.endsWith(".")))
             {
                 System.out.println("Invalid Input");
-                System.exit(0);
-            }
+                    System.exit(0);
+                }
             else 
             {
                 int a=s.length();
-                
-                   
                 String st=s.substring(0,a-1);
                 StringTokenizer str=new StringTokenizer(st);
                 int n=str.countTokens();
